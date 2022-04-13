@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 1.2em;
+}
+
+#more {
+  font-size: 1.2em;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-image: url("images/main2.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.main h2 span {
+  display: inline-block;
+  font-size: 2.3em;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.main h3 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  color: #fff;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  color: #fff;
+  background-color: #0a49f0;
+  transform: scale(1.1);
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 2.2em;
+  padding-right: 30px;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Books {
+  background-color: gainsboro;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.img img {
+  margin: 15px;
+  border: 2px solid white;
+
+  width: 15em;
+  transition: 0.7s ease;
+}
+
+.img img:hover {
+  transform: scale(1.1);
+}
+
+#mohamed {
+  font-size: 5em;
+  padding-top: 10px;
+}
+
+.fas {
+  font-size: 5em;
+  padding-top: 10px;
+}
+
+.icon {
+  color: #0a49f0;
+  font-size: 5em;
+  text-align: center;
+}
+
+.info h3 {
+  color: #0a49f0;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+footer section div a {
+  font-size: 1.9em;
+  text-decoration: none;
+}
+
+@media (max-width: 1023px) {
+  .main h2 {
+    font-size: 2em;
+
+  }
+
+  .main h3 {
+    font-size: 2em;
+
+  }
+
+  .main h2 span {
+    font-size: 2em;
+
+  }
+
+  .social-icons a {
+    display: inline;
+
+    font-size: 2em;
+  }
+
+  .img img {
+    margin-bottom: 20px;
+    width: 20em;
+    border-radius: 15px;
+    border: 1px solid #fff;
+  }
+
+}
